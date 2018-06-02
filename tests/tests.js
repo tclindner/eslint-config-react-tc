@@ -1,12 +1,11 @@
 'use strict';
 
-/* jscs:disable disallowUnusedVariables */
-const should = require('should');
-
-/* jscs:enable disallowUnusedVariables */
+const chai = require('chai');
 const isPlainObj = require('is-plain-obj');
 const eslintConfig = require('../index.js');
 const lint = require('./helper/testHelper.js');
+
+const should = chai.should();
 
 describe('eslint config tests', () => {
   context('eslint object', () => {
