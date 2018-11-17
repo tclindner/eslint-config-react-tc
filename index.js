@@ -1,5 +1,3 @@
-'use strict';
-
 /* eslint object-curly-newline: 'off', no-magic-numbers: 'off', array-bracket-newline: 'off' */
 
 module.exports = {
@@ -12,8 +10,7 @@ module.exports = {
     'react'
   ],
   env: {
-    es6: true,
-    mocha: true
+    es6: true
   },
   rules: {
     'class-methods-use-this': 'off',
@@ -82,5 +79,18 @@ module.exports = {
       requiredFirst: true
     }],
     'react/style-prop-object': 'error'
-  }
+  },
+  overrides: [
+    {
+      files: [
+        '**/*.spec.js',
+        '**/*.test.js',
+        '**/tests-*.js'
+      ],
+      env: {
+        jest: true,
+        mocha: true
+      }
+    }
+  ]
 };
