@@ -38,7 +38,7 @@ module.exports = {
       submit: true,
       reset: false
     }],
-    'react/default-props-match-prop-types': ['error', {allowRequiredDefaults: false }],
+    'react/default-props-match-prop-types': ['error', {allowRequiredDefaults: false}],
     'react/destructuring-assignment': ['error', 'always'],
     'react/forbid-prop-types': ['error', {
       forbid: ['any', 'array', 'object'],
@@ -83,7 +83,7 @@ module.exports = {
       'arrow': 'parens-new-line',
       'condition': 'parens-new-line',
       'logical': 'parens-new-line',
-      'prop': 'parens-new-line',
+      'prop': 'parens-new-line'
     }],
     'react/no-access-state-in-setstate': 'error',
     'react/no-array-index-key': 'error',
