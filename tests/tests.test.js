@@ -38,6 +38,8 @@ describe('eslint config tests', () => {
       const errors = lint(code, eslintConfig);
       const error = errors[0];
 
+      console.log(errors);
+
       error.ruleId.should.equal('react/react-in-jsx-scope');
       error.line.should.equal(expectedErrorLineNum);
       error.column.should.equal(expectedErrorColumnNum);
