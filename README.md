@@ -26,7 +26,7 @@ First thing first, let's make sure you have the necessary pre-requisites.
 ### Command
 
 ```bash
-npm install eslint-config-react-tc eslint-plugin-react --save-dev
+npm install eslint-config-react-tc eslint-plugin-react eslint-plugin-jsx-a11y --save-dev
 ```
 
 ## Usage
