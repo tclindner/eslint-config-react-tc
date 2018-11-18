@@ -31,27 +31,27 @@ module.exports = {
         'componentWillUnmount',
         'componentDidCatch',
         'getSnapshotBeforeUpdate'
-      ],
+      ]
     }],
     'react/button-has-type': ['error', {
       button: true,
       submit: true,
-      reset: false,
+      reset: false
     }],
-    'react/default-props-match-prop-types': ['error', { allowRequiredDefaults: false }],
+    'react/default-props-match-prop-types': ['error', {allowRequiredDefaults: false }],
     'react/destructuring-assignment': ['error', 'always'],
     'react/forbid-prop-types': ['error', {
       forbid: ['any', 'array', 'object'],
       checkContextTypes: true,
-      checkChildContextTypes: true,
+      checkChildContextTypes: true
     }],
-    'react/jsx-boolean-value': ['error', 'never', { always: [] }],
+    'react/jsx-boolean-value': ['error', 'never', {always: []}],
     'react/jsx-closing-bracket-location': ['error', {selfClosing: 'after-props', nonEmpty: 'after-props'}],
     'react/jsx-closing-tag-location': 'error',
-    'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
+    'react/jsx-curly-brace-presence': ['error', {props: 'never', children: 'never'}],
     'react/jsx-curly-spacing': ['error', 'never'],
     'react/jsx-equals-spacing': ['error', 'never'],
-    'react/jsx-filename-extension': ['error', { extensions: ['.jsx'] }],
+    'react/jsx-filename-extension': ['error', {extensions: ['.jsx']}],
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
     'react/jsx-handler-names': 'error',
     'react/jsx-indent': ['error', 2],
@@ -65,7 +65,7 @@ module.exports = {
     'react/jsx-no-duplicate-props': 'error',
     'react/jsx-no-target-blank': 'error',
     'react/jsx-no-undef': 'error',
-    'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
+    'react/jsx-one-expression-per-line': ['error', {allow: 'single-child'}],
     'react/jsx-pascal-case': 'error',
     'react/jsx-props-no-multi-spaces': 'error',
     'react/jsx-tag-spacing': ['error', {
@@ -77,13 +77,13 @@ module.exports = {
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
     'react/jsx-wrap-multilines': ['error', {
-      declaration: 'parens-new-line',
-      assignment: 'parens-new-line',
-      return: 'parens-new-line',
-      arrow: 'parens-new-line',
-      condition: 'parens-new-line',
-      logical: 'parens-new-line',
-      prop: 'parens-new-line',
+      'declaration': 'parens-new-line',
+      'assignment': 'parens-new-line',
+      'return': 'parens-new-line',
+      'arrow': 'parens-new-line',
+      'condition': 'parens-new-line',
+      'logical': 'parens-new-line',
+      'prop': 'parens-new-line',
     }],
     'react/no-access-state-in-setstate': 'error',
     'react/no-array-index-key': 'error',
@@ -96,7 +96,7 @@ module.exports = {
     'react/no-direct-mutation-state': 'error',
     'react/no-find-dom-node': 'error',
     'react/no-is-mounted': 'error',
-    'react/no-multi-comp': ['error', { ignoreStateless: true }],
+    'react/no-multi-comp': ['error', {ignoreStateless: true}],
     'react/no-redundant-should-component-update': 'error',
     'react/no-render-return-value': 'error',
     'react/no-string-refs': 'error',
@@ -107,7 +107,7 @@ module.exports = {
     'react/no-unused-prop-types': 'error',
     'react/no-unused-state': 'error',
     'react/prefer-es6-class': ['error', 'always'],
-    'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
+    'react/prefer-stateless-function': ['error', {ignorePureComponents: true}],
     'react/prop-types': 'error',
     'react/react-in-jsx-scope': 'error',
     'react/require-default-props': ['error', {
@@ -135,7 +135,7 @@ module.exports = {
         '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
         'instance-methods',
         'everything-else',
-        'rendering',
+        'rendering'
       ],
       groups: {
         lifecycle: [
@@ -157,13 +157,13 @@ module.exports = {
           'shouldComponentUpdate',
           'componentWillUpdate',
           'componentDidUpdate',
-          'componentWillUnmount',
+          'componentWillUnmount'
         ],
         rendering: [
           '/^render.+$/',
           'render'
-        ],
-      },
+        ]
+      }
     }],
     'react/void-dom-elements-no-children': 'error'
   },
