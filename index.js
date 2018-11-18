@@ -167,6 +167,13 @@ module.exports = {
     }],
     'react/void-dom-elements-no-children': 'error'
   },
+  settings: {
+    react: {
+      pragma: 'React',
+      version: '16.0'
+    },
+    propWrapperFunctions: ["forbidExtraProps"]
+  },
   overrides: [
     {
       files: [
