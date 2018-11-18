@@ -1,5 +1,3 @@
-'use strict';
-
 const chai = require('chai');
 const isPlainObj = require('is-plain-obj');
 const eslintConfig = require('../index.js');
@@ -43,7 +41,7 @@ describe('eslint config tests', () => {
       error.ruleId.should.equal('react/react-in-jsx-scope');
       error.line.should.equal(expectedErrorLineNum);
       error.column.should.equal(expectedErrorColumnNum);
-      error.source.should.equal('<Panel className="test" />');
+      error.nodeType.should.equal('JSXOpeningElement');
     });
   });
 });
