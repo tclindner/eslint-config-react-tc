@@ -1,23 +1,23 @@
 /* eslint object-curly-newline: 'off', no-magic-numbers: 'off', array-bracket-newline: 'off' */
 
 module.exports = {
-  extends: [
+  'extends': [
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended'
   ],
-  parserOptions: {
+  'parserOptions': {
     ecmaFeatures: {
       jsx: true
     }
   },
-  plugins: [
+  'plugins': [
     'react',
     'jsx-a11y'
   ],
-  env: {
+  'env': {
     es6: true
   },
-  rules: {
+  'rules': {
     'class-methods-use-this': ['error', {
       exceptMethods: [
         'render',
@@ -163,14 +163,14 @@ module.exports = {
     }],
     'react/void-dom-elements-no-children': 'error'
   },
-  settings: {
+  'settings': {
     react: {
       pragma: 'React',
       version: '16.0'
     },
     propWrapperFunctions: ['forbidExtraProps']
   },
-  overrides: [
+  'overrides': [
     {
       files: [
         '**/*.spec.js',
