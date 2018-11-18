@@ -172,7 +172,7 @@ module.exports = {
       pragma: 'React',
       version: '16.0'
     },
-    propWrapperFunctions: ["forbidExtraProps"]
+    propWrapperFunctions: ['forbidExtraProps']
   },
   overrides: [
     {
