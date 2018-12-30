@@ -180,6 +180,9 @@ module.exports = {
       env: {
         jest: true,
         mocha: true
+      },
+      rules: {
+        'react/jsx-closing-tag-location': 'off'
       }
     }
   ]
