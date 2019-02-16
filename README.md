@@ -26,8 +26,10 @@ First thing first, let's make sure you have the necessary pre-requisites.
 ### Command
 
 ```bash
-npm install eslint-config-react-tc eslint-plugin-react eslint-plugin-jsx-a11y --save-dev
+npm install eslint-config-react-tc eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-prettier prettier --save-dev
 ```
+
+> eslint, eslint-config-tc eslint-plugin-import, eslint-plugin-prettier, eslint-plugin-react, eslint-plugin-jsx-a11y, and prettier are peer dependencies and must be installed.
 
 ## Usage
 
