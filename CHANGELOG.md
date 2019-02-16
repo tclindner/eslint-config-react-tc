@@ -11,6 +11,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Removed
 
+## [3.0.0] - 2019-02-16
+### Added
+* Prettier support via `eslint-plugin-prettier`. Three options have been configured. `endOfLine` is set to `lf`. `printWidth` is set to `124`. `singleQuote` is set to `true`.
+
+### Changed
+* Deferred rules covered by `eslint-config-prettier` to Prettier.
+
 ## [2.2.0] - 2018-12-30
 ### Added
 * [react/jsx-closing-tag-location](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md) to test override config.
