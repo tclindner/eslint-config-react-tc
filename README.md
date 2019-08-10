@@ -20,16 +20,19 @@ First thing first, let's make sure you have the necessary pre-requisites.
 
 #### Node
 
-* [Node.js](https://nodejs.org/) - v6.0.0+
-* [npm](http://npmjs.com) - v3.0.0+
+* [Node.js](https://nodejs.org/) - v8.0.0+
+* [npm](http://npmjs.com) - v6.0.0+
 
 ### Command
 
 ```bash
-npm install eslint-config-react-tc eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-prettier prettier --save-dev
+npx install-peerdeps --dev eslint-config-react-tc
 ```
 
 > eslint, eslint-config-tc eslint-plugin-import, eslint-plugin-prettier, eslint-plugin-react, eslint-plugin-jsx-a11y, and prettier are peer dependencies and must be installed.
+
+
+**This module works best when paired with [`eslint-config-tc`](https://github.com/tclindner/eslint-config-tc). Please follow it's install instructions.**
 
 ## Usage
 
