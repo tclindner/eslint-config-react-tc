@@ -37,7 +37,7 @@ export default Panel
       const expectedErrorColumnNum = 21;
       const linter = new eslint.CLIEngine({
         useEslintrc: false,
-        configFile: '.eslintrc.json'
+        configFile: '.eslintrc.json',
       });
       const errors = linter.executeOnText(code).results[0].messages;
       const error = errors[0];

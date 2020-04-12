@@ -6,12 +6,12 @@ module.exports = {
   extends: ['plugin:react/recommended', 'plugin:jsx-a11y/recommended', 'prettier/react', a11y, react, prettier],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   plugins: ['react', 'jsx-a11y'],
   env: {
-    es6: true
+    es6: true,
   },
   rules: {
     'class-methods-use-this': [
@@ -33,28 +33,28 @@ module.exports = {
           'componentDidUpdate',
           'componentWillUnmount',
           'componentDidCatch',
-          'getSnapshotBeforeUpdate'
-        ]
-      }
-    ]
+          'getSnapshotBeforeUpdate',
+        ],
+      },
+    ],
   },
   settings: {
     react: {
       pragma: 'React',
-      version: '16.0'
+      version: '16.0',
     },
-    propWrapperFunctions: ['forbidExtraProps']
+    propWrapperFunctions: ['forbidExtraProps'],
   },
   overrides: [
     {
       files: ['**/*.spec.js', '**/*.test.js', '**/tests-*.js'],
       env: {
         jest: true,
-        mocha: true
+        mocha: true,
       },
       rules: {
-        'react/jsx-closing-tag-location': 'off'
-      }
-    }
-  ]
+        'react/jsx-closing-tag-location': 'off',
+      },
+    },
+  ],
 };
