@@ -5,8 +5,8 @@ module.exports = {
       {
         button: true,
         submit: true,
-        reset: false
-      }
+        reset: false,
+      },
     ],
     'react/default-props-match-prop-types': ['error', {allowRequiredDefaults: false}],
     'react/destructuring-assignment': ['error', 'always'],
@@ -16,8 +16,8 @@ module.exports = {
       {
         forbid: ['any', 'array', 'object'],
         checkContextTypes: true,
-        checkChildContextTypes: true
-      }
+        checkChildContextTypes: true,
+      },
     ],
     'react/jsx-boolean-value': ['error', 'never', {always: []}],
     'react/jsx-curly-brace-presence': ['error', {props: 'never', children: 'never'}],
@@ -40,23 +40,23 @@ module.exports = {
     'react/require-default-props': [
       'error',
       {
-        forbidDefaultForRequired: true
-      }
+        forbidDefaultForRequired: true,
+      },
     ],
     'react/self-closing-comp': [
       'error',
       {
         component: true,
-        html: false
-      }
+        html: false,
+      },
     ],
     'react/sort-prop-types': [
       'error',
       {
         callbacksLast: true,
         ignoreCase: true,
-        requiredFirst: true
-      }
+        requiredFirst: true,
+      },
     ],
     'react/style-prop-object': 'error',
     'react/sort-comp': [
@@ -72,7 +72,7 @@ module.exports = {
           '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
           'instance-methods',
           'everything-else',
-          'rendering'
+          'rendering',
         ],
         groups: {
           lifecycle: [
@@ -94,12 +94,12 @@ module.exports = {
             'shouldComponentUpdate',
             'componentWillUpdate',
             'componentDidUpdate',
-            'componentWillUnmount'
+            'componentWillUnmount',
           ],
-          rendering: ['/^render.+$/', 'render']
-        }
-      }
+          rendering: ['/^render.+$/', 'render'],
+        },
+      },
     ],
-    'react/void-dom-elements-no-children': 'error'
-  }
+    'react/void-dom-elements-no-children': 'error',
+  },
 };

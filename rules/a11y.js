@@ -7,11 +7,11 @@ module.exports = {
         labelAttributes: [],
         controlComponents: [],
         assert: 'both',
-        depth: 25
-      }
+        depth: 25,
+      },
     ],
     'jsx-a11y/tabindex-no-positive': 'error',
     'jsx-a11y/lang': 'error',
-    'jsx-a11y/no-onchange': 'off'
-  }
+    'jsx-a11y/no-onchange': 'off',
+  },
 };
