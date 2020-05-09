@@ -4,7 +4,7 @@
 
 [![license](https://img.shields.io/github/license/tclindner/eslint-config-react-tc.svg?maxAge=2592000&style=flat-square)](https://github.com/tclindner/eslint-config-react-tc/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/v/eslint-config-react-tc.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/eslint-config-react-tc)
-[![CircleCI](https://circleci.com/gh/tclindner/eslint-config-react-tc.svg?style=svg&circle-token=fc7379639647ff909c73532f7c00e7d6687ece73)](https://circleci.com/gh/tclindner/eslint-config-react-tc)
+![ci](https://github.com/tclindner/eslint-config-react-tc/workflows/ci/badge.svg?branch=master)
 [![Dependency Status](https://david-dm.org/tclindner/eslint-config-react-tc.svg?style=flat-square)](https://david-dm.org/tclindner/eslint-config-react-tc)
 [![devDependency Status](https://david-dm.org/tclindner/eslint-config-react-tc/dev-status.svg?style=flat-square)](https://david-dm.org/tclindner/eslint-config-react-tc#info=devDependencies)
 
