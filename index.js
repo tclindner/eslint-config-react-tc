@@ -3,7 +3,7 @@ const react = require.resolve('./rules/react');
 const prettier = require.resolve('./rules/prettier');
 
 module.exports = {
-  extends: ['plugin:react/recommended', 'plugin:jsx-a11y/recommended', 'prettier/react', a11y, react, prettier],
+  extends: ['plugin:react/recommended', 'plugin:jsx-a11y/recommended', a11y, react, prettier],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
