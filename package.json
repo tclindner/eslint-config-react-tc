@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-tc",
-  "version": "8.0.0",
+  "version": "0.0.0",
   "description": "ESLint shareable config for React projects",
   "keywords": [
     "eslintconfig",
