@@ -21,7 +21,7 @@ module.exports = {
     ],
     'react/jsx-boolean-value': ['error', 'never', {always: []}],
     'react/jsx-curly-brace-presence': ['error', {props: 'never', children: 'never'}],
-    'react/jsx-filename-extension': ['error', {extensions: ['.jsx']}],
+    'react/jsx-filename-extension': ['error', {extensions: ['.jsx', '.tsx']}],
     'react/jsx-handler-names': 'error',
     'react/jsx-pascal-case': 'error',
     'react/no-access-state-in-setstate': 'error',
