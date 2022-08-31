@@ -39,10 +39,6 @@ module.exports = {
     ],
   },
   settings: {
-    react: {
-      pragma: 'React',
-      version: '16.0',
-    },
     propWrapperFunctions: ['forbidExtraProps'],
   },
   overrides: [
@@ -54,6 +50,12 @@ module.exports = {
       },
       rules: {
         'react/jsx-closing-tag-location': 'off',
+      },
+    },
+    {
+      files: ['**/*.tsx'],
+      rules: {
+        'import/extension': 'off',
       },
     },
   ],
