@@ -29,7 +29,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint . --format=node_modules/eslint-formatter-pretty",
+    "eslint": "eslint . --ignore-pattern 'test/fixtures/*' --format=node_modules/eslint-formatter-pretty",
     "lint": "npm run npmpackagejsonlint && npm run eslint",
     "npmpackagejsonlint": "npmPkgJsonLint .",
     "test": "jest"
