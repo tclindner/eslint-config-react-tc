@@ -55,7 +55,7 @@ module.exports = {
     {
       files: ['**/*.tsx'],
       rules: {
-        'import/extension': 'off',
+        'import/extensions': 'off',
       },
     },
   ],
