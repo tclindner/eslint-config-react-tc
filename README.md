@@ -5,8 +5,6 @@
 [![license](https://img.shields.io/github/license/tclindner/eslint-config-react-tc.svg?maxAge=2592000&style=flat-square)](https://github.com/tclindner/eslint-config-react-tc/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/v/eslint-config-react-tc.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/eslint-config-react-tc)
 ![ci](https://github.com/tclindner/eslint-config-react-tc/workflows/ci/badge.svg?branch=master)
-[![Dependency Status](https://david-dm.org/tclindner/eslint-config-react-tc.svg?style=flat-square)](https://david-dm.org/tclindner/eslint-config-react-tc)
-[![devDependency Status](https://david-dm.org/tclindner/eslint-config-react-tc/dev-status.svg?style=flat-square)](https://david-dm.org/tclindner/eslint-config-react-tc#info=devDependencies)
 
 ## What is eslint-config-react-tc?
 
@@ -20,8 +18,8 @@ First thing first, let's make sure you have the necessary pre-requisites.
 
 #### Node
 
-* [Node.js](https://nodejs.org/) - v14.0.0+
-* [npm](http://npmjs.com) - v6.0.0+
+* [Node.js](https://nodejs.org/) - v16.0.0+
+* [npm](http://npmjs.com) - v8.0.0+
 
 ### Command
 
@@ -69,4 +67,4 @@ Please see the [CHANGELOG.md](CHANGELOG.md) for more information.
 
 ## License
 
-Copyright (c) 2018-2022 Thomas Lindner. Licensed under the MIT license.
+Copyright (c) 2018-2023 Thomas Lindner. Licensed under the MIT license.
