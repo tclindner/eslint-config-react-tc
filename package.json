@@ -29,7 +29,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint . --ignore-pattern 'test/fixtures/*' --format=node_modules/eslint-formatter-pretty",
+    "eslint": "eslint . --ignore-pattern 'test/fixtures/*'",
     "lint": "npm run npmpackagejsonlint && npm run eslint",
     "npmpackagejsonlint": "npmPkgJsonLint .",
     "test": "jest"
@@ -37,7 +37,6 @@
   "devDependencies": {
     "eslint": "^8.55.0",
     "eslint-config-tc": "^24.1.0",
-    "eslint-formatter-pretty": "^6.0.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jest": "^27.6.0",
